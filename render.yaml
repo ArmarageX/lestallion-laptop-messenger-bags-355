@@ -1,0 +1,9 @@
+services:
+- type: web
+  name: lestallion-laptop-messenger-bags-355
+  runtime: static
+  staticPublishPath: public
+  routes:
+  - type: rewrite
+    source: /*
+    destination: /index.html
